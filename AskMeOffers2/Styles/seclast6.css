@@ -1,0 +1,85 @@
+.seclast{
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+}
+
+.sec{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec img{
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.sec p{
+    font-size: 14px;
+    color: rgb(114,114,114);
+}
+
+.sec2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sec21{
+    margin-top: 30px;
+}
+
+.sec21 ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.sec21 ul li{
+    float: none;
+}
+
+.sec21 ul li a{
+    color: rgb(114,114,114);
+    text-decoration: none;
+}
+
+.sec21 ul li a i{
+    margin-right: 10px;
+    color: orangered;
+}
+
+.sec21 ul li a:hover{
+    color: orangered;
+}
+
+.sec input{
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(238, 237, 237);
+}
+
+.sec input::placeholder{
+    color: rgb(114,114,114);
+    font-size: 15px;
+}
+
+.sec .subscribe{
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.sec .subscribe::placeholder{
+    color: white;
+}
+
+.sec .subscribe:hover{
+    background-color: black;
+}

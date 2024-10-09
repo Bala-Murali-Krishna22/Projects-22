@@ -1,0 +1,41 @@
+.clients{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 50px;
+    height: 350px;
+}
+
+.clients1{
+    padding-top: 30px;
+    line-height: 40px;
+}
+
+.clients1 h2{
+    font-size: 40px;
+}
+
+.clients1 p{
+    color: rgb(114,114,114);
+}
+
+.clients2{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    vertical-align: middle;
+    transition: width 0.15s;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.clients2 div img{
+    cursor: pointer;
+    width: 150px;
+}
+
+.clients2 div img:hover{
+    width: 180px;
+}

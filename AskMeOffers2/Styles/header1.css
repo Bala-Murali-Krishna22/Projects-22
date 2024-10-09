@@ -1,0 +1,84 @@
+.header-logo{
+    flex: 1;
+    margin-right: 40px;
+}
+
+.logo{
+    margin: auto 20%;
+    cursor: pointer;
+}
+
+.header{
+    flex: 2;
+    position: relative;
+}
+
+.header ul{
+    list-style-type: none;
+    display: flex;
+    overflow: hidden;
+}
+
+.header ul li{
+    float: none;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    transform: color 0.15s;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: black;
+    padding-right: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: color 0.15s;
+    display: flex;
+    align-items: center;
+}
+
+.header ul li a i {
+    margin-left: 5px;
+}
+
+.header ul li a:hover{
+    color: orangered;
+}
+
+.services{
+    display: none;
+    position: absolute;
+    top: 100%;
+    line-height: 20px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+    background-color: white;
+    padding: 10px;
+    z-index: 1;
+}
+
+.header ul li:hover .services{
+    display: block;
+}
+
+.services ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.services ul li{
+    float: none;
+    display: block;
+}
+
+.servicesul ul li a{
+    display: block;
+    color: black;
+    transition: color 0.15s;
+}
+
+.services ul li a:hover{
+    color: orangered;
+    padding-left: 20px;
+}

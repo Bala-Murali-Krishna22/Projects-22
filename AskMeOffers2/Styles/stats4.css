@@ -1,0 +1,23 @@
+.stats{
+    background: url("../Home-images/tech.webp");
+    background-position: center;
+    height: 300px;
+    padding-left: 150px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.numbers{
+    flex: 1;
+}
+
+.numbers h2{
+    font-size: 50px;
+}
+
+.numbers p{
+    font-size: 20px;
+}
